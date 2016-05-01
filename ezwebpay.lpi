@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="EzWebpay"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <Language Value="040A"/>
+      <StringTable CompanyName="Ninjas.cl" FileDescription="Webpay Easy Configurator" ProductVersion="1.0.0"/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="ezwebpay.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ezwebpay"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="55" Y="17"/>
+        <UsageCount Value="35"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainForm"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="550"/>
+        <CursorPos X="32" Y="576"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="maincontroller.pas"/>
+        <UnitName Value="MainController"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="20"/>
+        <CursorPos X="22" Y="37"/>
+        <UsageCount Value="9"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="mainform.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/share/fpcsrc/2.6.0/packages/regexpr/src/regexpr.pas"/>
+        <UnitName Value="RegExpr"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="430"/>
+        <CursorPos X="2" Y="209"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1942"/>
+        <CursorPos X="15" Y="1955"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="9" Column="21" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="101" Column="3" TopLine="248"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="204" Column="73" TopLine="202"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="256" Column="3" TopLine="253"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="250" Column="68" TopLine="248"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="310" Column="1" TopLine="310"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="376" Column="59" TopLine="372"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="351" Column="46" TopLine="349"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="387" Column="61" TopLine="372"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="72" Column="55" TopLine="50"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="74" Column="55" TopLine="52"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="232" Column="9" TopLine="218"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="234" Column="11" TopLine="220"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="231" Column="5" TopLine="220"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="229" Column="66" TopLine="218"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="234" Column="8" TopLine="216"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="267" Column="11" TopLine="267"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="278" Column="18" TopLine="265"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="151" Column="41" TopLine="136"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="157" Column="44" TopLine="131"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="309" Column="40" TopLine="307"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="157" Column="38" TopLine="144"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="525" Column="17" TopLine="511"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="523" Column="55" TopLine="510"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="9" Column="48" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="547" Column="20" TopLine="540"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="542" Column="21" TopLine="535"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="575" Column="32" TopLine="549"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="576" Column="32" TopLine="550"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="575" Column="32" TopLine="549"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <Target>
+      <Filename Value="ezwebpay"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

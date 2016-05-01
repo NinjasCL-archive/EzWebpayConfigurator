@@ -1,0 +1,47 @@
+unit MainController;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  ExtCtrls;
+
+type
+
+  { TMainController }
+
+  TMainController = class(TForm)
+    exportButton: TButton;
+    newButton: TButton;
+    saveButton: TButton;
+    importButton: TButton;
+    certificationAmbientOption: TRadioButton;
+    commerceDataGroup: TGroupBox;
+    actionsGroup: TGroupBox;
+    LabeledEdit1: TLabeledEdit;
+    LabeledEdit2: TLabeledEdit;
+    productionAmbientOption: TRadioButton;
+    sslOption: TRadioButton;
+    redirectionOption: TRadioButton;
+    ambientGroup: TRadioGroup;
+    communicationGroup: TRadioGroup;
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end; 
+
+var
+  MainController: TMainForm;
+
+implementation
+
+{$R *.lfm}
+
+{ TMainController }
+
+
+end.
+

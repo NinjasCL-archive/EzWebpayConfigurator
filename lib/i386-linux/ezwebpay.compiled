@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1365977962"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gl -vewnhi -l -Fi/home/camilo/documents/ninjas/ezwebpay/lib/i386-linux -Fu/usr/lib/lazarus/0.9.30.4/lcl/units/i386-linux -Fu/usr/lib/lazarus/0.9.30.4/lcl/units/i386-linux/gtk2 -Fu/usr/lib/lazarus/0.9.30.4/packager/units/i386-linux -Fu/home/camilo/documents/ninjas/ezwebpay/ -Fu. -FU/home/camilo/documents/ninjas/ezwebpay/lib/i386-linux/ -oezwebpay -dLCL -dLCLgtk2 ezwebpay.lpr"/>
+</CONFIG>
