@@ -8,7 +8,7 @@ object MainForm: TMainForm
   ClientHeight = 600
   ClientWidth = 700
   OnShow = FormShow
-  LCLVersion = '0.9.30.4'
+  LCLVersion = '1.6.0.4'
   object ambientGroup: TRadioGroup
     Left = 8
     Height = 105
@@ -24,8 +24,8 @@ object MainForm: TMainForm
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 88
-    ClientWidth = 181
+    ClientHeight = 82
+    ClientWidth = 177
     Font.Height = -13
     Font.Name = 'Sans'
     Font.Style = [fsBold]
@@ -34,9 +34,9 @@ object MainForm: TMainForm
     object certificationAmbientOption: TRadioButton
       Tag = 8
       Left = 6
-      Height = 38
+      Height = 35
       Top = 6
-      Width = 169
+      Width = 165
       Caption = 'Certificación'
       Checked = True
       Font.Height = -13
@@ -48,9 +48,9 @@ object MainForm: TMainForm
     object productionAmbientOption: TRadioButton
       Tag = 9
       Left = 6
-      Height = 38
-      Top = 44
-      Width = 169
+      Height = 35
+      Top = 41
+      Width = 165
       Caption = 'Producción'
       Font.Height = -13
       Font.Name = 'Sans'
@@ -73,8 +73,8 @@ object MainForm: TMainForm
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 87
-    ClientWidth = 268
+    ClientHeight = 81
+    ClientWidth = 264
     Font.Height = -13
     Font.Name = 'Sans'
     Font.Style = [fsBold]
@@ -82,9 +82,9 @@ object MainForm: TMainForm
     TabOrder = 2
     object redirectionOption: TRadioButton
       Left = 6
-      Height = 38
+      Height = 35
       Top = 6
-      Width = 256
+      Width = 252
       Caption = 'Usar Redirección (MEDCOM = 2)'
       Checked = True
       ParentFont = False
@@ -93,9 +93,9 @@ object MainForm: TMainForm
     end
     object sslOption: TRadioButton
       Left = 6
-      Height = 37
-      Top = 44
-      Width = 256
+      Height = 34
+      Top = 41
+      Width = 252
       Caption = 'Usar SSL (MEDCOM = 1)'
       ParentFont = False
       TabOrder = 1
@@ -107,8 +107,8 @@ object MainForm: TMainForm
     Top = 8
     Width = 465
     Caption = 'Datos del Comercio'
-    ClientHeight = 119
-    ClientWidth = 461
+    ClientHeight = 113
+    ClientWidth = 457
     Font.Height = -13
     Font.Name = 'Sans'
     Font.Style = [fsBold]
@@ -116,16 +116,18 @@ object MainForm: TMainForm
     TabOrder = 0
     object commerceNameTextField: TLabeledEdit
       Left = 6
-      Height = 25
+      Height = 22
       Hint = 'Nombre del Comercio. Ejemplo: Super Tienda.'
       Top = 33
       Width = 448
       EditLabel.AnchorSideLeft.Control = commerceNameTextField
+      EditLabel.AnchorSideRight.Control = commerceNameTextField
+      EditLabel.AnchorSideRight.Side = asrBottom
       EditLabel.AnchorSideBottom.Control = commerceNameTextField
       EditLabel.Left = 6
       EditLabel.Height = 16
       EditLabel.Top = 14
-      EditLabel.Width = 143
+      EditLabel.Width = 448
       EditLabel.Caption = 'Nombre del Comercio'
       EditLabel.ParentColor = False
       EditLabel.ParentFont = False
@@ -140,16 +142,18 @@ object MainForm: TMainForm
     object commerceIdTextField: TLabeledEdit
       Tag = 1
       Left = 6
-      Height = 25
+      Height = 22
       Hint = 'Es el número otorgado por Transbank para identificar al comercio en Producción. Ejemplo: 597026007976'
       Top = 89
       Width = 448
       EditLabel.AnchorSideLeft.Control = commerceIdTextField
+      EditLabel.AnchorSideRight.Control = commerceIdTextField
+      EditLabel.AnchorSideRight.Side = asrBottom
       EditLabel.AnchorSideBottom.Control = commerceIdTextField
       EditLabel.Left = 6
       EditLabel.Height = 16
       EditLabel.Top = 70
-      EditLabel.Width = 224
+      EditLabel.Width = 448
       EditLabel.Caption = 'Número Identificador de Comercio'
       EditLabel.ParentColor = False
       EditLabel.ParentFont = False
@@ -169,8 +173,8 @@ object MainForm: TMainForm
     Top = 8
     Width = 185
     Caption = 'Acciones'
-    ClientHeight = 160
-    ClientWidth = 181
+    ClientHeight = 154
+    ClientWidth = 177
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 3
@@ -727,8 +731,8 @@ object MainForm: TMainForm
     Top = 152
     Width = 465
     Caption = 'Datos del Servidor'
-    ClientHeight = 303
-    ClientWidth = 461
+    ClientHeight = 297
+    ClientWidth = 457
     Font.Height = -13
     Font.Name = 'Sans'
     Font.Style = [fsBold]
@@ -736,10 +740,10 @@ object MainForm: TMainForm
     TabOrder = 4
     object serverEqualsKCCServerCheckbox: TCheckBox
       Left = 6
-      Height = 20
+      Height = 18
       Hint = 'Normalmente ambas IPs son iguales. Solo modificar si se sabe lo que se hace.'
       Top = 177
-      Width = 337
+      Width = 325
       Caption = 'El servidor del comercio y del KCC son el mismo'
       Checked = True
       Font.Height = -13
@@ -757,8 +761,8 @@ object MainForm: TMainForm
       Top = 209
       Width = 449
       Caption = 'Servidor de KCC'
-      ClientHeight = 75
-      ClientWidth = 445
+      ClientHeight = 69
+      ClientWidth = 441
       Enabled = False
       Font.Height = -13
       Font.Name = 'Sans'
@@ -768,16 +772,18 @@ object MainForm: TMainForm
       object kccServerIPTextField: TLabeledEdit
         Tag = 6
         Left = 6
-        Height = 25
+        Height = 22
         Hint = 'Dirección IPv4 del Servidor del KCC. Ejemplo: 190.232.234.21'
         Top = 33
         Width = 272
         EditLabel.AnchorSideLeft.Control = kccServerIPTextField
+        EditLabel.AnchorSideRight.Control = kccServerIPTextField
+        EditLabel.AnchorSideRight.Side = asrBottom
         EditLabel.AnchorSideBottom.Control = kccServerIPTextField
         EditLabel.Left = 6
         EditLabel.Height = 16
         EditLabel.Top = 14
-        EditLabel.Width = 97
+        EditLabel.Width = 272
         EditLabel.Caption = 'IP Servidor KCC'
         EditLabel.ParentColor = False
         EditLabel.ParentFont = False
@@ -791,16 +797,18 @@ object MainForm: TMainForm
       object kccServerPortTextField: TLabeledEdit
         Tag = 7
         Left = 294
-        Height = 25
+        Height = 22
         Hint = 'Puerto del Servidor donde está el KCC. Ejemplo: 80'
         Top = 33
         Width = 144
         EditLabel.AnchorSideLeft.Control = kccServerPortTextField
+        EditLabel.AnchorSideRight.Control = kccServerPortTextField
+        EditLabel.AnchorSideRight.Side = asrBottom
         EditLabel.AnchorSideBottom.Control = kccServerPortTextField
         EditLabel.Left = 294
         EditLabel.Height = 16
         EditLabel.Top = 14
-        EditLabel.Width = 122
+        EditLabel.Width = 144
         EditLabel.Caption = 'Puerto Servidor KCC'
         EditLabel.ParentColor = False
         EditLabel.ParentFont = False
@@ -816,16 +824,18 @@ object MainForm: TMainForm
     object urlCgiTextField: TLabeledEdit
       Tag = 2
       Left = 6
-      Height = 25
+      Height = 22
       Hint = 'URL donde está ubicado el archivo tbk_bp_pago.cgi. Ejemplo:http://www.ejemplo.com/cgi-bin/tbk_bp_resultado.cgi'
       Top = 33
       Width = 448
       EditLabel.AnchorSideLeft.Control = urlCgiTextField
+      EditLabel.AnchorSideRight.Control = urlCgiTextField
+      EditLabel.AnchorSideRight.Side = asrBottom
       EditLabel.AnchorSideBottom.Control = urlCgiTextField
       EditLabel.Left = 6
       EditLabel.Height = 16
       EditLabel.Top = 14
-      EditLabel.Width = 213
+      EditLabel.Width = 448
       EditLabel.Caption = 'URL del archivo tbk_bp_pago.cgi'
       EditLabel.ParentColor = False
       EditLabel.ParentFont = False
@@ -839,16 +849,18 @@ object MainForm: TMainForm
     object urlVerifyScriptTextField: TLabeledEdit
       Tag = 3
       Left = 6
-      Height = 25
+      Height = 22
       Hint = 'URL hacia la página de cierre del comercio. Ejemplo: http://ejemplo.com/webpay/cierre.php'
       Top = 89
       Width = 448
       EditLabel.AnchorSideLeft.Control = urlVerifyScriptTextField
+      EditLabel.AnchorSideRight.Control = urlVerifyScriptTextField
+      EditLabel.AnchorSideRight.Side = asrBottom
       EditLabel.AnchorSideBottom.Control = urlVerifyScriptTextField
       EditLabel.Left = 6
       EditLabel.Height = 16
       EditLabel.Top = 70
-      EditLabel.Width = 290
+      EditLabel.Width = 448
       EditLabel.Caption = 'URL del archivo de verificación del comercio'
       EditLabel.ParentColor = False
       EditLabel.ParentFont = False
@@ -864,16 +876,18 @@ object MainForm: TMainForm
     object serverIPTextField: TLabeledEdit
       Tag = 4
       Left = 6
-      Height = 25
+      Height = 22
       Hint = 'Dirección IPv4 del Servidor de Comercio. Ejemplo: 182.231.523.23'
       Top = 145
       Width = 280
       EditLabel.AnchorSideLeft.Control = serverIPTextField
+      EditLabel.AnchorSideRight.Control = serverIPTextField
+      EditLabel.AnchorSideRight.Side = asrBottom
       EditLabel.AnchorSideBottom.Control = serverIPTextField
       EditLabel.Left = 6
       EditLabel.Height = 16
       EditLabel.Top = 126
-      EditLabel.Width = 137
+      EditLabel.Width = 280
       EditLabel.Caption = 'IP Servidor Comercio'
       EditLabel.ParentColor = False
       EditLabel.ParentFont = False
@@ -887,16 +901,18 @@ object MainForm: TMainForm
     object serverPortTextField: TLabeledEdit
       Tag = 5
       Left = 302
-      Height = 25
+      Height = 22
       Hint = 'Puerto del Servidor de Comercio. Ejemplo: 80'
       Top = 145
       Width = 152
       EditLabel.AnchorSideLeft.Control = serverPortTextField
+      EditLabel.AnchorSideRight.Control = serverPortTextField
+      EditLabel.AnchorSideRight.Side = asrBottom
       EditLabel.AnchorSideBottom.Control = serverPortTextField
       EditLabel.Left = 302
       EditLabel.Height = 16
       EditLabel.Top = 126
-      EditLabel.Width = 150
+      EditLabel.Width = 152
       EditLabel.Caption = 'Puerto Servidor Comercio'
       EditLabel.ParentColor = False
       EditLabel.ParentFont = False

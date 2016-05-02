@@ -1,3 +1,23 @@
+(*
+    EZ Webpay Configurator v1.0
+    Helps configuring the file tbk_config.dat for Transbank Webpay KCC
+
+    Copyright (C) 2016  Camilo Castro <camilo@ninjas.cl>
+    https://github.com/NinjasCL/EzWebpayConfigurator
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*)
 unit MainForm;
 
 {$mode objfpc}{$H+}
@@ -94,6 +114,7 @@ implementation
 
 { TMainForm }
 
+(* Event Handlers *)
 
 procedure TMainForm.serverEqualsKCCServerCheckboxChange(Sender: TObject);
 begin
@@ -244,6 +265,7 @@ begin
     end
     else
     begin
+      // Its the default certification ambient number
       line1 := concat(line1, '597026007976');
     end;
 
@@ -380,6 +402,16 @@ begin
 
 end;
 
+procedure TMainForm.urlVerifyScriptTextFieldChange(Sender: TObject);
+begin
+  urlVerifyScriptTextField.text := urlString(urlVerifyScriptTextField.text);
+end;
+
+procedure TMainForm.urlCgiTextFieldChange(Sender: TObject);
+begin
+  urlCgiTextField.text := urlString(urlCgiTextField.text);
+end;
+
 (*
 Helper Functions and Procedures
  Some code from https://www.rosettacode.org/
@@ -467,10 +499,7 @@ begin
   reg.Free;
 end;
 
-procedure TMainForm.urlVerifyScriptTextFieldChange(Sender: TObject);
-begin
-  urlVerifyScriptTextField.text := urlString(urlVerifyScriptTextField.text);
-end;
+
 
 function TMainForm.ipString(textParam: string) : string;
 var
@@ -492,10 +521,7 @@ begin
 
 end;
 
-procedure TMainForm.urlCgiTextFieldChange(Sender: TObject);
-begin
-  urlCgiTextField.text := urlString(urlCgiTextField.text);
-end;
+
 
 function TMainForm.urlString(textParam: string) : string;
 var

@@ -1,0 +1,160 @@
+msgid "Quilpué, Chile."
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "Quilpué, Chile."
+msgstr ""
+
+#: tmainform.actionsgroup.caption
+msgid "Acciones"
+msgstr ""
+
+#: tmainform.ambientgroup.caption
+msgid "Ambiente"
+msgstr ""
+
+#: tmainform.caption
+msgid "EZ Webpay Config v1.0"
+msgstr ""
+
+#: tmainform.certificationambientoption.caption
+msgid "Certificación"
+msgstr ""
+
+#: tmainform.commercedatagroup.caption
+msgid "Datos del Comercio"
+msgstr ""
+
+#: tmainform.commerceidtextfield.editlabel.caption
+msgid "Número Identificador de Comercio"
+msgstr ""
+
+#: tmainform.commerceidtextfield.hint
+msgid "Es el número otorgado por Transbank para identificar al comercio en Producción. Ejemplo: 597026007976"
+msgstr ""
+
+#: tmainform.commercenametextfield.editlabel.caption
+msgid "Nombre del Comercio"
+msgstr ""
+
+#: tmainform.commercenametextfield.hint
+msgid "Nombre del Comercio. Ejemplo: Super Tienda."
+msgstr ""
+
+#: tmainform.communicationgroup.caption
+msgid "Método Comunicación"
+msgstr ""
+
+#: tmainform.copyrightlabel.caption
+msgid "Ninjas.cl"
+msgstr ""
+
+#: tmainform.exportbutton.caption
+msgid "Exportar tbk_config.dat"
+msgstr ""
+
+#: tmainform.importbutton.caption
+msgid "Importar Comercio"
+msgstr ""
+
+#: tmainform.kccservergroup.caption
+msgid "Servidor de KCC"
+msgstr ""
+
+#: tmainform.kccserveriptextfield.editlabel.caption
+msgid "IP Servidor KCC"
+msgstr ""
+
+#: tmainform.kccserveriptextfield.hint
+msgid "Dirección IPv4 del Servidor del KCC. Ejemplo: 190.232.234.21"
+msgstr ""
+
+#: tmainform.kccserverporttextfield.editlabel.caption
+msgid "Puerto Servidor KCC"
+msgstr ""
+
+#: tmainform.kccserverporttextfield.hint
+msgid "Puerto del Servidor donde está el KCC. Ejemplo: 80"
+msgstr ""
+
+#: tmainform.kccserverporttextfield.text
+msgctxt "tmainform.kccserverporttextfield.text"
+msgid "80"
+msgstr ""
+
+#: tmainform.newbutton.caption
+msgid "Nuevo Comercio"
+msgstr ""
+
+#: tmainform.openfiledialog.title
+msgid "Abrir un comercio existente"
+msgstr ""
+
+#: tmainform.productionambientoption.caption
+msgid "Producción"
+msgstr ""
+
+#: tmainform.redirectionoption.caption
+msgid "Usar Redirección (MEDCOM = 2)"
+msgstr ""
+
+#: tmainform.savebutton.caption
+msgid "Guardar Comercio"
+msgstr ""
+
+#: tmainform.savefileninidialog.title
+msgid "Guardar comercio como"
+msgstr ""
+
+#: tmainform.serverdatagroup.caption
+msgid "Datos del Servidor"
+msgstr ""
+
+#: tmainform.serverequalskccservercheckbox.caption
+msgid "El servidor del comercio y del KCC son el mismo"
+msgstr ""
+
+#: tmainform.serverequalskccservercheckbox.hint
+msgid "Normalmente ambas IPs son iguales. Solo modificar si se sabe lo que se hace."
+msgstr ""
+
+#: tmainform.serveriptextfield.editlabel.caption
+msgid "IP Servidor Comercio"
+msgstr ""
+
+#: tmainform.serveriptextfield.hint
+msgid "Dirección IPv4 del Servidor de Comercio. Ejemplo: 182.231.523.23"
+msgstr ""
+
+#: tmainform.serverporttextfield.editlabel.caption
+msgid "Puerto Servidor Comercio"
+msgstr ""
+
+#: tmainform.serverporttextfield.hint
+msgid "Puerto del Servidor de Comercio. Ejemplo: 80"
+msgstr ""
+
+#: tmainform.serverporttextfield.text
+msgctxt "TMAINFORM.SERVERPORTTEXTFIELD.TEXT"
+msgid "80"
+msgstr ""
+
+#: tmainform.ssloption.caption
+msgid "Usar SSL (MEDCOM = 1)"
+msgstr ""
+
+#: tmainform.urlcgitextfield.editlabel.caption
+msgid "URL del archivo tbk_bp_pago.cgi"
+msgstr ""
+
+#: tmainform.urlcgitextfield.hint
+msgid "URL donde está ubicado el archivo tbk_bp_pago.cgi. Ejemplo:http://www.ejemplo.com/cgi-bin/tbk_bp_resultado.cgi"
+msgstr ""
+
+#: tmainform.urlverifyscripttextfield.editlabel.caption
+msgid "URL del archivo de verificación del comercio"
+msgstr ""
+
+#: tmainform.urlverifyscripttextfield.hint
+msgid "URL hacia la página de cierre del comercio. Ejemplo: http://ejemplo.com/webpay/cierre.php"
+msgstr ""
+
