@@ -12,8 +12,11 @@ Software bajo la GPL v3. Ver archivo [LICENCE](LICENSE).
 
 ## Changelog (dd-mm-yyyy)
 
+### v1.0.1 18-05-2016
+- Arreglado error en código de comercio al exportar en producción.
+
 ### v1.0 01-05-2016
-- Primera Versión
+- Primera Versión.
 
 ## Ayuda
 https://github.com/clsource/guia-webpay
