@@ -261,7 +261,7 @@ begin
 
     if productionAmbientOption.checked then
     begin
-      line1 := concat(line1, commerceIdTextField.text);
+      line1 := line1 + '5970' + commerceIdTextField.text;
     end
     else
     begin
